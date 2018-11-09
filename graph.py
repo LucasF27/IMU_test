@@ -43,7 +43,7 @@ def update():
     ptr += 1
 timer = QtCore.QTimer()
 timer.timeout.connect(update)
-timer.start(50)
+timer.start(15)
 
 number_of_sensors = 1
 p = False
